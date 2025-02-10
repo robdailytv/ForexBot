@@ -1,3 +1,6 @@
+bot.send_message(chat_id='694153691', text="Bot is working!")
+
+
 import requests
 import time
 import os
