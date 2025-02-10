@@ -10,8 +10,8 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO)
 
 # Telegram bot token and chat ID
-bot = telegram.Bot(token='YOUR_BOT_TOKEN')
-chat_id = 'YOUR_CHAT_ID'
+bot = telegram.Bot(token='7566422168:AAH2DB3G9RHmdfFC2_BA2-kenfRN3MJK8Ys')
+chat_id = '694153691'
 
 # Function to send message to Telegram chat
 def send_message_to_telegram(message):
