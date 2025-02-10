@@ -1,7 +1,7 @@
 import requests
 import logging
 import time
-import telegram
+import telegram  # Make sure you've installed the 'python-telegram-bot' library
 from datetime import datetime
 import ccxt
 import pandas as pd
@@ -10,13 +10,13 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO)
 
 # Telegram bot token and chat ID
-bot = telegram.Bot(token='7566422168:AAH2DB3G9RHmdfFC2_BA2-kenfRN3MJK8Ys')
-chat_id = '694153691'
+bot = telegram.Bot(token='7566422168:AAH2DB3G9RHmdfFC2_BA2-kenfRN3MJK8Ys')  # Ensure this line is correct
+chat_id = '694153691'  # Ensure this is your correct chat ID
 
 # Function to send message to Telegram chat
 def send_message_to_telegram(message):
     try:
-        bot.send_message(chat_id=chat_id, text=message)
+        bot.send_message(chat_id=chat_id, text=message)  # This uses the initialized 'bot' object
         logging.info("Message sent to Telegram successfully.")
     except Exception as e:
         logging.error(f"Error sending message to Telegram: {e}")
