@@ -5,6 +5,9 @@ import telegram  # Make sure you've installed the 'python-telegram-bot' library
 from datetime import datetime
 import ccxt
 import pandas as pd
+import python-telegram-bot
+
+
 
 # Setup logging to capture the flow of the bot
 logging.basicConfig(level=logging.INFO)
