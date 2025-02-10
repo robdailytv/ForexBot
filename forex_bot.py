@@ -9,9 +9,9 @@ import pandas as pd
 # Setup logging to capture the flow of the bot
 logging.basicConfig(level=logging.INFO)
 
-# Telegram bot token and chat ID
-bot = telegram.Bot(token='7566422168:AAH2DB3G9RHmdfFC2_BA2-kenfRN3MJK8Ys')  # Ensure this line is correct
-chat_id = '694153691'  # Ensure this is your correct chat ID
+# Initialize Telegram bot with your bot token
+bot = telegram.Bot(token='7566422168:AAH2DB3G9RHmdfFC2_BA2-kenfRN3MJK8Ys')  # Replace with your token
+chat_id = '694153691'  # Replace with your chat ID
 
 # Function to send message to Telegram chat
 def send_message_to_telegram(message):
